@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="atcrowdfundingreverse" />
+        <module name="atcrowdfuding-admin-1-webui" />
+        <module name="atcrowdfundingadmin2component" />
+        <module name="atcrowdfundingadmin3common" />
+        <module name="atcrowdfundingadmin4entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="atcrowdfundingadmin1webui" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
