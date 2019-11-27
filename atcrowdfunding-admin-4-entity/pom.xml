@@ -13,12 +13,4 @@
     <packaging>jar</packaging>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>com.atguigu.crowd.funding</groupId>
-            <artifactId>atcrowdfunding-admin-4-entity</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-
 </project>
