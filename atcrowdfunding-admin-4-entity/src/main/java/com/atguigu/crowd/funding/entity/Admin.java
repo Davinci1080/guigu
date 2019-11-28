@@ -11,6 +11,18 @@ public class Admin {
 
     private String email;
 
+    public Admin() {
+    }
+
+    public Admin(Integer id, String loginacct, String userpswd, String username, String email, String createtime) {
+        this.id = id;
+        this.loginacct = loginacct;
+        this.userpswd = userpswd;
+        this.username = username;
+        this.email = email;
+        this.createtime = createtime;
+    }
+
     private String createtime;
 
     public Integer getId() {
@@ -19,6 +31,18 @@ public class Admin {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "id=" + id +
+                ", loginacct='" + loginacct + '\'' +
+                ", userpswd='" + userpswd + '\'' +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", createtime='" + createtime + '\'' +
+                '}';
     }
 
     public String getLoginacct() {
