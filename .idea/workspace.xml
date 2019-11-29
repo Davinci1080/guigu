@@ -6,15 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6a586db-a272-4e1c-90a7-d134c076e24b" name="Default Changelist" comment="">
+    <list default="true" id="d6a586db-a272-4e1c-90a7-d134c076e24b" name="Default Changelist" comment="完成管理员登录">
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/script/my-admin.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT.war" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-target.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/spring-persist-mybatis.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/spring-persist-tx.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/spring-web-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/include-head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/include-nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/include-sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/index-page.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/asm-3.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -24,8 +37,9 @@
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/cglib-2.2.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.31.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
@@ -45,6 +59,7 @@
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.2.RELEASE.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.2.RELEASE.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/system-error.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/bootstrap/css/bootstrap-theme.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
@@ -67,6 +82,7 @@
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/css/font-awesome.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/css/login.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/css/pagination.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/css/theme.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/fonts/FontAwesome.otf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/fonts/fontawesome-webfont.eot" afterDir="false" />
@@ -112,6 +128,8 @@
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/script/back-to-top.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/script/docs.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/script/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/script/my-admin.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/ztree/img/diy/1_close.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/ztree/img/diy/1_open.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/ztree/img/diy/2.png" afterDir="false" />
@@ -151,25 +169,14 @@
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-4-entity/target/classes/com/atguigu/crowd/funding/entity/AdminExample$Criterion.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-4-entity/target/classes/com/atguigu/crowd/funding/entity/AdminExample$GeneratedCriteria.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-4-entity/target/classes/com/atguigu/crowd/funding/entity/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding-admin-4-entity/target/classes/com/atguigu/crowd/funding/entity/ResultEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-persist-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-persist-mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-web-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-web-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-target.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/admin-target.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/index-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/index-page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/test/java/com/atguigu/crowd/funding/test/CrowdFundingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/test/java/com/atguigu/crowd/funding/test/CrowdFundingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/api/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/api/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/impl/AdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/crowd/funding/entity/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/crowd/funding/entity/AdminExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/target/atcrowdfunding-admin-1-webui-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mapper/AdminMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -191,59 +198,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/test/java/com/atguigu/crowd/funding/test/CrowdFundingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -298,24 +253,26 @@
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingUtils.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/exeption/CrowdFudingExceptionResolever.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-web-mvc.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingConstant.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-persist-mybatis.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-login.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-target.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/index-page.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-main.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/include-nav.jsp" />
-        <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp" />
-        <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/api/AdminService.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/test/java/com/atguigu/crowd/funding/test/CrowdFundingTest.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingConstant.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/api/AdminService.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-web-mvc.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-add.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-edit.jsp" />
       </list>
     </option>
   </component>
@@ -357,10 +314,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-32" />
-    <option name="y" value="23" />
+    <option name="x" value="-78" />
+    <option name="y" value="33" />
     <option name="width" value="1016" />
-    <option name="height" value="726" />
+    <option name="height" value="627" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -372,64 +329,14 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding-admin-1-webui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atcrowdfunding-admin-0-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atcrowdfunding-admin-0-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="atcrowdfunding-admin-2-component" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -439,10 +346,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-1-webui\src\main\webapp\WEB-INF" />
+      <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-1-webui\src\main\webapp\script" />
       <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-4-entity\src\main\java\com\atguigu\crowd\funding\entity" />
       <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-1-webui\src\main\webapp\css" />
-      <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-1-webui\src\main\webapp\script" />
-      <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-1-webui\src\main\webapp\WEB-INF" />
       <recent name="E:\atcrowdfunding-admin-0-parent\atcrowdfunding-admin-1-webui\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -610,7 +517,7 @@
       <workItem from="1574843227765" duration="6152000" />
       <workItem from="1574855388561" duration="2436000" />
       <workItem from="1574899970875" duration="9449000" />
-      <workItem from="1575019028431" duration="11996000" />
+      <workItem from="1575019028431" duration="17326000" />
     </task>
     <task id="LOCAL-00001" summary="查看依赖到底怎么回事">
       <created>1574850127554</created>
@@ -626,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574921806870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成分页批量删除查询">
+      <created>1575035844941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575035844941</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,11 +570,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33622000" />
+    <option name="totallyTimeSpent" value="38952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="466" y="86" width="1016" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="-78" y="33" width="1016" height="627" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31903765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -672,24 +585,24 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895397" visible="true" weight="0.05059022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895397" weight="0.36639675" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36437246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.62356794" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.6214575" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.62356794" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.49590835" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.49190283" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.45475113" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3290469" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32845187" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -706,12 +619,10 @@
     </ignored-roots>
     <MESSAGE value="查看依赖到底怎么回事" />
     <MESSAGE value="完成管理员登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成管理员登录" />
+    <MESSAGE value="完成分页批量删除查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成分页批量删除查询" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.java" />
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/entity/AdminExample.java" />
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/entity/Admin.java" />
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/resources/AdminMapper.xml" />
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/entity/AdminExample.java">
@@ -775,16 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-3-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
@@ -832,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-web-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/system-error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -846,24 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-persist-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-target.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -912,13 +792,6 @@
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/css/pagination.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/jquery/jquery.pagination.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -951,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/api/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/mapper/AdminMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -975,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/entity/ResultEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -989,30 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1084">
           <caret line="740" column="6" selection-start-line="740" selection-start-column="6" selection-end-line="740" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,14 +875,120 @@
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
-          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+        <state relative-caret-position="247">
+          <caret line="129" column="45" selection-start-line="129" selection-start-column="45" selection-end-line="129" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/script/my-admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-target.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/resources/spring-web-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-3-common/src/main/java/com/atguigu/crowd/funding/util/CrowdFundingUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="46" column="52" lean-forward="true" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/api/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-2-component/src/main/java/com/atguigu/crowd/funding/handle/AdminHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-4-entity/src/main/java/com/atguigu/crowd/funding/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding-admin-1-webui/src/main/webapp/WEB-INF/admin-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,7 @@ import com.atguigu.crowd.funding.service.api.AdminService;
 import com.atguigu.crowd.funding.util.CrowdFundingConstant;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,7 +22,46 @@ public class AdminHandle {
     @Autowired
     private AdminService adminService;
 
+    @RequestMapping("/admin/update")
+    public String updateAdmin(Admin admin, @RequestParam("pageNum") String pageNum) {
 
+        try {
+            adminService.updateAdmin(admin);
+        } catch (Exception e) {
+            e.printStackTrace();
+            if(e instanceof DuplicateKeyException) {
+                throw new RuntimeException(CrowdFundingConstant.MESSAGE_LOGIN_ACCT_ALREADY_IN_USE);
+            }
+        }
+
+        return "redirect:/admin/query/for/search.html?pageNum="+pageNum;
+    }
+
+    @RequestMapping("/admin/to/edit/page")
+    public String toEditPage(@RequestParam("adminId") Integer adminId, Model model) {
+
+        Admin admin = adminService.getAdminById(adminId);
+
+        model.addAttribute("admin", admin);
+
+        return "admin-edit";
+    }
+
+    // 使用Admin实体类对象封装表单提交的请求参数，具体每一个请求参数会通过对应的setXxx()方法注入实体类
+    @RequestMapping("/admin/save")
+    public String saveAdmin(Admin admin) {
+
+        try {
+            adminService.saveAdmin(admin);
+        } catch (Exception e) {
+            e.printStackTrace();
+            if(e instanceof DuplicateKeyException) {
+                throw new RuntimeException(CrowdFundingConstant.MESSAGE_LOGIN_ACCT_ALREADY_IN_USE);
+            }
+        }
+
+        return "redirect:/admin/query/for/search.html";
+    }
     // 将当前handler方法的返回值作为响应体返回，不经过视图解析器
     @ResponseBody
     @RequestMapping("/admin/batch/remove")

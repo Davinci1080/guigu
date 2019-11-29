@@ -89,4 +89,31 @@ public class AdminServiceImpl implements AdminService {
         // 执行具体操作时把封装了查询条件的Example对象传入
         adminMapper.deleteByExample(adminExample);
     }
+
+    @Override
+    public Admin getAdminById(Integer adminId) {
+        return adminMapper.selectByPrimaryKey(adminId);
+    }
+
+    @Override
+    public void updateAdmin(Admin admin) {
+        // 对密码进行加密
+        String userPswd = admin.getUserpswd();
+        userPswd = CrowdFundingUtils.md5(userPswd);
+        admin.setUserpswd(userPswd);
+
+        // 执行更新
+        adminMapper.updateByPrimaryKey(admin);
+    }
+
+    @Override
+    public void saveAdmin(Admin admin) {
+// 对密码进行加密
+        String userPswd = admin.getUserpswd();
+        userPswd = CrowdFundingUtils.md5(userPswd);
+        admin.setUserpswd(userPswd);
+
+        // 执行保存
+        adminMapper.insert(admin);
+    }
 }
