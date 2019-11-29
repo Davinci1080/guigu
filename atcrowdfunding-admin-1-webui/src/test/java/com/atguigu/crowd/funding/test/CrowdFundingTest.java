@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
+import com.atguigu.crowd.funding.mapper.AdminMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,9 @@ public class CrowdFundingTest {
 	
 	@Autowired
 	private AdminService adminService;
+
+    @Autowired
+    private AdminMapper adminMapper;
 	
 	/*@Test
 	public void testTx() {
@@ -37,6 +41,16 @@ public class CrowdFundingTest {
 			System.out.println(admin);
 		}
 	}
+
+    @Test
+    public void testAdminMapperSearch() {
+        String keyword = "b";
+        List<Admin> list = adminMapper.selectAdminListByKeyword(keyword);
+
+        for (Admin admin : list) {
+            System.out.println(admin);
+        }
+    }
 	
 	@Test
 	public void testConnection() throws SQLException {

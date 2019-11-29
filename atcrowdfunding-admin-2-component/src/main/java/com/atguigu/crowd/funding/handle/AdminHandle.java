@@ -1,13 +1,17 @@
 package com.atguigu.crowd.funding.handle;
 
 import com.atguigu.crowd.funding.entity.Admin;
+import com.atguigu.crowd.funding.entity.ResultEntity;
 import com.atguigu.crowd.funding.service.api.AdminService;
 import com.atguigu.crowd.funding.util.CrowdFundingConstant;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -17,6 +21,39 @@ public class AdminHandle {
     @Autowired
     private AdminService adminService;
 
+
+    // 将当前handler方法的返回值作为响应体返回，不经过视图解析器
+    @ResponseBody
+    @RequestMapping("/admin/batch/remove")
+    public ResultEntity<String> batchRemove(@RequestBody List<Integer> adminIdList) {
+
+        try {
+
+            adminService.batchRemove(adminIdList);
+
+            return ResultEntity.successWithoutData();
+        }catch(Exception e) {
+
+            return ResultEntity.failed(null, e.getMessage());
+        }
+
+    }
+
+    @RequestMapping("/admin/query/for/search")
+    public String queryForSearch(
+
+            // 如果页面上没有提供对应的请求参数，那么可以使用defaultValue指定默认值
+            @RequestParam(value="pageNum", defaultValue="1") Integer pageNum,
+            @RequestParam(value="pageSize", defaultValue="20") Integer pageSize,
+            @RequestParam(value="keyword", defaultValue="") String keyword,
+            Model model) {
+
+        PageInfo<Admin> pageInfo = adminService.queryForKeywordSearch(pageNum, pageSize, keyword);
+
+        model.addAttribute(CrowdFundingConstant.ATTR_NAME_PAGE_INFO, pageInfo);
+
+        return "admin-page";
+    }
 
     @RequestMapping("/admin/logout")
     public String logout(HttpSession session) {
@@ -51,7 +88,7 @@ public class AdminHandle {
 
         session.setAttribute(CrowdFundingConstant.ATTR_NAME_LOGIN_ADMIN, admin);
 
-        return "admin-main";
+        return "redirect:/admin/to/main/page.html";
     }
 
     @RequestMapping("/admin/get/all")
