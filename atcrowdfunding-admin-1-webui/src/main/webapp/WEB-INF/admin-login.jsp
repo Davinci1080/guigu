@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/login.css">
     <style>
     </style>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -42,6 +43,7 @@
                     class="form-control"
                     id="inputSuccess4"
                     placeholder="请输入登录账号"
+                    value="harry"
                     autofocus>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
@@ -52,11 +54,42 @@
                     class="form-control"
                     id="inputSuccess4"
                     placeholder="请输入登录密码"
+                    value="123123"
                     style="margin-top: 10px;">
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <button class="btn btn-lg btn-success btn-block">登录</button>
     </form>
+
 </div>
+
+<script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#textModalBtn").click(function(){
+            $("#testModal").modal("show");
+        });
+    });
+</script>
+<!-- <button id="textModalBtn" class="btn btn-lg btn-success btn-block">测试模态框</button>
+<div id="testModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">尚筹网</h4>
+        </div>
+      <div class="modal-body">
+            <p>模态框测试！！！</p>
+      </div>
+      <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 </body>
 </html>

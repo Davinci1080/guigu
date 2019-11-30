@@ -6,7 +6,9 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
+import com.atguigu.crowd.funding.entity.Role;
 import com.atguigu.crowd.funding.mapper.AdminMapper;
+import com.atguigu.crowd.funding.mapper.RoleMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +30,9 @@ public class CrowdFundingTest {
 
     @Autowired
     private AdminMapper adminMapper;
+
+    @Autowired
+    private RoleMapper roleMapper;
 	
 	/*@Test
 	public void testTx() {
@@ -44,10 +49,10 @@ public class CrowdFundingTest {
 
     @Test
     public void testAdminMapperSearch() {
-        String keyword = "b";
-        List<Admin> list = adminMapper.selectAdminListByKeyword(keyword);
+        String keyword = "";
+        List<Role> list = roleMapper.selectForKeywordSearch(keyword);
 
-        for (Admin admin : list) {
+        for (Role admin : list) {
             System.out.println(admin);
         }
     }
